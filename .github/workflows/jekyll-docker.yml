@@ -2,7 +2,8 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ "${{ github.ref_name }}" ]
+    branches:  
+      - ${{ github.ref_name }}
   pull_request:
     branches: [ "main" ]
 
